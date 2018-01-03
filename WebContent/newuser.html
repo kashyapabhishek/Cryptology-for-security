@@ -6,10 +6,16 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body style="background: #ffffff">
-        <div align="center" class="password-reset">
-            <form action="pasreset" method="post">
-                <input type="text" name="oldpassword" placeholder="old password"><br>
-                <input type="password" name="newpassword1" placeholder="****************"><br>
+        <div align="center" class="newuser">
+            <form action="newuser" method="post">
+                <input type="text" name="fistname" placeholder="First name">
+                <input type="text" name="lastname" placeholder="Last name"><br>
+                <input type="radio" name="gender" value="male" checked class="radio"><label class="mylable"> Male</label>
+                <input type="radio" name="gender" value="female" class="radio" ><label class="mylable">Female</label>
+                <input type="radio" name="gender" value="other" class="radio" > <label class="mylable">Other</label><br>
+                <textarea  name="address" placeholder="Address"></textarea>
+                <input type="email" name="email" placeholder="Username@domain.com" style="width: 540px;"><br>
+                <input type="password" name="newpassword1" placeholder="****************">
                 <input type="password" name="newpassword2" placeholder="****************"><br>
                 <div id="submit"><input type="submit" value="submit" ></div><br>
 

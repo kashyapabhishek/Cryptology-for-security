@@ -176,11 +176,50 @@ input{
 .password-reset form{
     padding: 10px;
     padding-top: 25px;
-    background: blue;
-     color: white;
+    background: #0DFF92;
+     color: black;
      max-width: 300px;
      margin:15% auto;
      border-radius: 5px;
      box-shadow:3px 3px 5px 6px #ccc;
+}
+
+/*This section of css style newuser.html*/
+.newuser form input{
+    display: inline-block;
+    width: 250px;
+    padding-left: 15px;
+    font-size: 1.125em;
+}
+.newuser form{
+    padding: 10px;
+    padding-top: 25px;
+    background: #0DFF92;
+    color: black;
+    max-width: 600px;
+    margin:15% auto;
+    border-radius: 5px;
+    box-shadow:3px 3px 5px 6px #ccc;
+}
+
+.newuser form .radio{
+  width: 18px;
+  margin-right: 20px;
+
+}
+
+.newuser form .mylable{
+    display: inline-block;
+    font-size: 1.111em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+textarea{
+    padding-left: 15px;
+    font-size: .9em;
+    display: block;
+    width: 90%;
+    height: 100px;
 }
 
